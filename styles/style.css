@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    /* background: rgb(170,255,218); */
+    min-height: 100vh;
+    justify-content: center;
+}
+
+p {
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+header {
+    color: white;
+    background: black;
+    height: 80px;
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+}
+
+.random-text {
+    font-size: 48px;
+    text-align: center;
+}
+
+.randomize-button button {
+    font-size: 30px;
+    color: white;
+    background: rgb(8, 95, 255);
+    border-radius: 15px;
+    padding: 5px 20px;
+    margin-bottom: 50px;
+}
+
+.randomize-button button:hover {
+    cursor: pointer;
+}
+
+.answer-input {
+    width: 70%;
+    text-align: center;
+}
+
+.answer-input input {
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 15px;
+    font-size: 24px;
+    border: 3px solid rgb(153, 153, 153);
+}
+
+.submit-button button {
+    font-size: 30px;
+    color: white;
+    background: rgb(8, 95, 255);
+    border-radius: 15px;
+    padding: 5px 20px;
+}
+
+.submit-button button:hover {
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background: black;
+    color: white;
+    margin-top: auto;
+}
+
+
